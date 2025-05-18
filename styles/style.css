@@ -1,5 +1,180 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 
 .page {
+  max-width: 375px;
+  font-family: 'IBM Plex mono', sans-serif;
+  background-color: #000028;
+  background-position: center;
+  background-attachment: fixed;
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  background-image: url(../images/cover-image-dark.png);
+  background-size: cover;
+  background-position: center;
+  justify-items: end;
+  margin-bottom: 40px;
+}
+
+.rec {
+  padding: 0px;
+  position: relative;
+  margin: 15px 0px 39px 10px;
+  color: #FF0070;
+  font-size: 18px;
+
+}
+
+.rec::after {
+  position: absolute;
+  top: 7px;
+  left: 38px;
+  content: "";
+  color: #FF0070;
+  background-color: #FF0070;
+  inline-size: 9px;
+  block-size: 9px;
+  margin-left: 5px;
+  border: 2px solid #FF0070;
+  border-radius: 50%;
+  box-shadow: 0 0 4px 2px #FF0070;
+}
+
+.decorated-zone {
+  position: relative;
+}
+
+.decorated-zone::before {
+  content: "";
+  position: absolute;
+  top: 14px;
+  right: 9px;
+  width: 25px;
+  height: 25px;
+  border-block-start: 1px solid #FF0070;
+  border-inline-end: 1px solid #FF0070;
+}
+
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 9px;
+  width: 25px;
+  height: 25px;
+  border-block-end: 1px solid #FF0070;
+  border-inline-start: 1px solid #FF0070;
+}
+
+.header__theme-menu-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-right: 8px;
+}
+
+
+.header__theme-menu-button {
+  background: none;
+  padding: 0px 13px 1px;
+  margin: 0;
+  border: none;
+  outline: none;
+  color: #FF0070;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'IBM Plex Mono', sans-serif;
+}
+
+.header__theme-menu-button_active {
+  border: 1px solid #FF0070;
+}
+
+.header-title {
+  color: #DB00FF;
+  font-size: 116px;
+  font-weight: 700px;
+  text-shadow: 4px 4px #FF0070;
+  line-height: 83%;
+  margin: 5px 16px 0px 0px;
+}
+
+.header-description {
+  background-color: #FF0070;
+  color: #000028;
+  margin: 55px 10px 66px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 23.4px;
+}
+
+.line {
+  display: block;
+}
+
+.main {
+  display: flex;
+  gap: 50px;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.main-section {
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.main-section-title {
+  font-size: 18px;
+  color: #FF0070;
+  font-weight: bold;
+  line-height: 23.4px;
+}
+
+.main-section-subtitle {
+  font-size: 18px;
+  color: #000028;
+  background-color: #FF0070;
+  font-weight: bold;
+}
+
+.tip__subtitle {
+  margin-top: 19px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #000028;
+  background-color: #FF0070;
+}
+
+.main-section-text {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #F1B2CE;
+  font-weight: normal;
+}
+
+.focus--images {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 32px;
+}
+
+.focus-tips-image {
+  max-width: 355px;
+}
+
+.footer-title {
+  color: #DB00FF;
+  font-size: 116px;
+  font-weight: 700px;
+  text-shadow: 4px 4px #FF0070;
+  line-height: 83%;
+  padding: 286px 13px 285px 14px;
 }
