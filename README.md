@@ -1,1 +1,1 @@
-https://github.com/MarselBaty/slozhno-sosredotochitsya-fdß
+https://github.com/MarselBaty/slozhno-sosredotochitsya-fd
