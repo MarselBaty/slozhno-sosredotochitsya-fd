@@ -9,11 +9,9 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
-  --bg__image: url(../images/cover-image-light.png);
-  --text-size__s: 18px;
-  --text-size__l: 116px;
-  --large__title-color: #FFC2E6;
-  --small__title-color: #353430;
+  --bg-image: url(../images/cover-image-light.png);
+  --large-title-color: #FFC2E6;
+  --small-title-color: #353430;
   --decorated-color: #353430;
   --accent-color: #FF8DCB;
   --accent-bg-color: #FF8DCB;
@@ -33,11 +31,9 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-    --bg__image: url(../images/cover-image-light.png);
-    --text-size__s: 18px;
-    --text-size__l: 116px;
-    --large__title-color: #FFC2E6;
-    --small__title-color: #353430;
+    --bg-image: url(../images/cover-image-light.png);
+    --large-title-color: #FFC2E6;
+    --small-title-color: #353430;
     --decorated-color: #353430;
     --accent-color: #FF8DCB;
     --accent-bg-color: #FF8DCB;
