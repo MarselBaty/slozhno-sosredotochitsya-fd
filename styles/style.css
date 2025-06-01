@@ -1,18 +1,17 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
 .page {
   font-family: 'IBM Plex mono', sans-serif;
-  background-color: var(--bg-color);
-  background-position: center;
+  background-image: var(--bg-image);
   background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  width: 1024px;
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
 
 .header {
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
-  background-image: var(--bg-image);
-  background-size: cover;
-  background-position: center;
   justify-items: end;
   margin-bottom: 39px;
 }
@@ -97,7 +96,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid #FF007066;
+  outline: 1px solid var(--button-hover);
 }
 
 .header__theme-menu-button:focus {
@@ -111,7 +110,7 @@
 }
 
 .title-decor {
-  color: var(--large__title-color);
+  color: var(--large-title-color);
   font-size: var(--text-size-l);
   font-weight: 700px;
   line-height: 83%;
@@ -270,7 +269,6 @@
   }
 
   .header__theme-menu {
-    justify-self: end;
     align-self: center;
     margin-top: 63px;
     margin-right: 12px;
@@ -322,7 +320,6 @@
 
   .main-section {
     padding: 15px 19px 0px 20px;
-    gap: 20px;
   }
 
   .focus-decline__title {
@@ -333,17 +330,14 @@
     gap: 20px;
   }
 
-  .focus-tips {
-    margin-top: 0px;
-  }
-
   .main-section-text__focus-tips {
     margin-top: 12px;
   }
 
   .focus-images {
+    margin-top: 10px;
     display: grid;
-    grid-template-columns: repeat(3, calc(94.35% / 3));
+    grid-template-columns: repeat(3, calc(95% / 3));
     grid-template-rows: 24.75% 29.35% 40.95%;
     gap: 20px;
   }
@@ -420,7 +414,6 @@
   }
 
   .header__theme-menu-list {
-    display: flex;
     flex-direction: row;
     gap: 11px;
     margin: 0;
@@ -440,21 +433,16 @@
   }
 
   .section-split {
-    display: grid;
     grid-template-columns: 31.7% 67.4%;
-    align-items: flex-start;
-    flex-wrap: wrap;
   }
 
   .main-section {
-    padding: 15px 19px 0px 21px;
     gap: 22px;
   }
 
   .focus-decline__custom {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 21px;
   }
 
   .focus-decline__title {
@@ -462,16 +450,13 @@
     line-height: 22.4px;
   }
 
-  .tip__subtitle {
-    margin-top: 20px;
-  }
-
   .main-section-images {
     gap: 18px;
   }
 
   .focus-images {
-    grid-template-columns: repeat(3, calc(95.88% / 3));
+    margin-top: 0px;
+    grid-template-columns: repeat(3, calc(96.347032% / 3));
     grid-template-rows: 24.9% 30.19% 41.35%;
   }
 

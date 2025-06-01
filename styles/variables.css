@@ -4,14 +4,14 @@
   --text-size-l: 116px;
   --decorated-color: #FF0070;
   --large-title-color: #DB00FF;
-  --small-title-color: #;
+  --small-title-color: #FF0070;
   --accent-color: #FF0070;
   --accent-bg-color: #FF0070;
   --text-color: #000028;
-  --bg-color: #000028;
   --sakura-text-color: #F1B2CE;
   --button-text-color: #FF0070;
   --button-accent-color: #FF0070;
+  --button-hover: #FF007066;
 }
 /*
   Переменные для вашего проекта

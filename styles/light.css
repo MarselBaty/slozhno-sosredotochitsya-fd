@@ -16,10 +16,10 @@
   --accent-color: #FF8DCB;
   --accent-bg-color: #FF8DCB;
   --text-color: #353430;
-  --bg-color: #FFF1F7;
   --sakura-text-color: #353430;
   --button-text-color: #343430;
   --button-accent-color: #343430;
+  --button-hover: #32312D66;
 }
 
 .theme-light .page {
@@ -38,9 +38,9 @@
     --accent-color: #FF8DCB;
     --accent-bg-color: #FF8DCB;
     --text-color: #353430;
-    --bg-color: #FFF1F7;
     --sakura-text-color: #353430;
     --button-text-color: #343430;
     --button-accent-color: #343430;
+    --button-hover: #32312D66;
   }
 }

@@ -18,10 +18,10 @@
   --accent-color: #FF0070;
   --accent-bg-color: #FF0070;
   --text-color: #000028;
-  --bg-color: #000028;
   --sakura-text-color: #F1B2CE;
   --button-text-color: #FF0070;
   --button-accent-color: #FF0070;
+  --button-hover: #FF007066;
 }
 
 .theme-dark .page {
@@ -39,9 +39,9 @@
     --accent-color: #FF0070;
     --accent-bg-color: #FF0070;
     --text-color: #000028;
-    --bg-color: #000028;
     --sakura-text-color: #F1B2CE;
     --button-text-color: #FF0070;
     --button-accent-color: #FF0070;
+    --button-hover: #FF007066;
   }
 }
