@@ -5,7 +5,6 @@
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  width: 1024px;
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 }
 
