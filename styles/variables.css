@@ -1,7 +1,8 @@
 :root {
   --bg-image: url(../images/cover-image-dark.png);
+  --bg-color: #000028;
   --text-size-s: 18px;
-  --text-size-l: 116px;
+  --text-size-l: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --decorated-color: #FF0070;
   --large-title-color: #DB00FF;
   --small-title-color: #FF0070;
@@ -12,6 +13,12 @@
   --button-text-color: #FF0070;
   --button-accent-color: #FF0070;
   --button-hover: #FF007066;
+}
+
+@media screen and (width >= 768px) {
+  :root {
+    --text-size-l: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
+  }
 }
 /*
   Переменные для вашего проекта

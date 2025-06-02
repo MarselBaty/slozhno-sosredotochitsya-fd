@@ -10,6 +10,7 @@
     чем стили в медиазапросе предпочтений пользователя
   */
   --bg-image: url(../images/cover-image-light.png);
+  --bg-color: #fff1f7;
   --large-title-color: #FFC2E6;
   --small-title-color: #353430;
   --decorated-color: #353430;
@@ -22,11 +23,8 @@
   --button-hover: #32312D66;
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-  .rec {
+.theme-light .rec {
     display: none;
-  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -42,5 +40,9 @@
     --button-text-color: #343430;
     --button-accent-color: #343430;
     --button-hover: #32312D66;
+  }
+
+  .rec {
+    display: none;
   }
 }
