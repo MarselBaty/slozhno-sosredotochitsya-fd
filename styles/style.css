@@ -247,7 +247,6 @@
     grid-template-rows: 1fr 1fr 1fr;
     min-height: 1024px;
     margin-bottom: 44px;
-    min-height: 1024px;
   }
 
   .rec::before {
